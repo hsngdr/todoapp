@@ -4,7 +4,6 @@ import { getTodosAsync, removeAsync, favToogleAsync } from "../Redux/todoSlice";
 import { v4 } from "uuid";
 import { AiOutlineHeart, AiFillHeart, AiOutlineDelete } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
-import Loading from "../Components/Loading";
 import FavoriteCounter from "../Components/FavoriteCounter";
 
 const Projects = () => {
